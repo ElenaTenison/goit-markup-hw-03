@@ -122,8 +122,11 @@ body {
   text-align: center;
 }
 .hero-title {
-  padding-top: 200px;
+  margin: 0 auto;
+  max-width: 696px;
   margin-bottom: 30px;
+  padding-top: 200px;
+  
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -131,6 +134,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primary-title-color);
+
 }
 
 .hero-btn {
@@ -140,6 +144,7 @@ body {
   align-items: center;
   text-align: center;
   margin: 0 auto;
+
   border: 0;
   border-radius: 4px;
 
