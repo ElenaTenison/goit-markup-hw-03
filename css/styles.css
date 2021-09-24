@@ -170,8 +170,12 @@ body {
 
 /* ANDVANTAGES */
 
+.advantages {
+  display: flex;
+  padding-bottom: 0;
+}
+
 .advantages-list {
-  margin: 0 auto;
   display: flex;
   align-items: center;
 }
