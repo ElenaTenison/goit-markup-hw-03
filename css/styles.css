@@ -328,9 +328,11 @@ body {
   flex-basis: calc(100% /3 - 30px);
 
 }
+.gallery-content {
+  padding: 20px 24px;
+}
 
 .gallery-title {
-
   font-style: 400;
   font-weight: 700;
   font-size: 18px;
@@ -339,6 +341,7 @@ body {
   color: var(--secondary-title-color);
 }
 .gallery-item {
+  margin-top: 4px;
 
   font-size: 16px;
   line-height: 2;
