@@ -191,10 +191,18 @@ body {
 /* WORK */
 
 .work-title {
+  text-align: center;
+  padding-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   color: var(--secondary-title-color);
+}
+
+.work-list {
+  display: flex;
+  align-items: center;
+  padding-bottom: 94px;
 }
 
 /* TEAM */
