@@ -174,12 +174,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin-left: -30px;
-}
-
-.advantages-card {
   margin-left: 30px;
-  width: 270px;
+  flex-basis: calc((100% - 120px) / 4);
 }
 
 .advantages-item {
@@ -215,11 +211,10 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin-left: -30px;
 }
 .work-card {
   margin-left: 30px;
-  width: 370px;
+  flex-basis: calc((100% - 90px) / 3);
 }
 
 /* TEAM */
@@ -258,12 +253,11 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin-left: -30px;
 }
 
 .team-card {
   margin-left: 30px;
-  width: 270px;
+  flex-basis: calc((100% - 120px) / 4);
 }
 
 /* FOOTER */
