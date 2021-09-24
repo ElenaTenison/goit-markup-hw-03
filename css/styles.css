@@ -49,6 +49,8 @@ body {
   padding-right: 15px;
 }
 
+.section {
+}
 /* HEADER */
 
 .header-container {
@@ -208,6 +210,8 @@ body {
 /* TEAM */
 
 .team-title {
+  text-align: center;
+  padding-top: 94px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -215,6 +219,8 @@ body {
 }
 
 .team-item {
+  padding-top: 30px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -223,18 +229,32 @@ body {
 }
 
 .team-link {
+  padding-top: 10px;
+  padding-bottom: 30px;
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.19px;
   text-align: center;
 }
 
+.team-list {
+  display: flex;
+  align-items: center;
+  padding-bottom: 94px;
+}
+
 /* FOOTER */
+
+.footer-container {
+  display: flex;
+}
 .footer {
   background-color: #2f303a;
 }
 
 .footer-logo {
+  padding-top: 60px;
   color: var(--secondary-text-color);
 }
 .adrress-item {
