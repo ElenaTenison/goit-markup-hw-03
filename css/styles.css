@@ -175,7 +175,7 @@ body {
   flex-wrap: wrap;
   align-items: center;
   margin-left: 30px;
-  flex-basis: calc((100% - 120px) / 4);
+  flex-basis: calc(100% / 4 - 30px);
 }
 
 .advantages-item {
@@ -214,7 +214,7 @@ body {
 }
 .work-card {
   margin-left: 30px;
-  flex-basis: calc((100% - 90px) / 3);
+  flex-basis: calc(100% / 3 - 30px);
 }
 
 /* TEAM */
@@ -257,7 +257,7 @@ body {
 
 .team-card {
   margin-left: 30px;
-  flex-basis: calc((100% - 120px) / 4);
+  flex-basis: calc(100% / 4 - 30px);
 }
 
 /* FOOTER */
@@ -304,6 +304,7 @@ body {
 
 
 .button-list{
+  justify-content: center;
   padding-bottom: 34px;
   display: flex;
   flex-wrap: wrap;
@@ -324,7 +325,7 @@ body {
 .gallery-card{
   margin-left: 30px;
   margin-bottom: 30px;
-  flex-basis: calc((100% - 90px) / 3);
+  flex-basis: calc(100% /3 - 30px);
 
 }
 
