@@ -192,6 +192,10 @@ body {
 
 /* WORK */
 
+.work {
+  padding-top: 0;
+}
+
 .work-title {
   text-align: center;
   padding-bottom: 50px;
@@ -209,6 +213,7 @@ body {
 /* TEAM */
 
 .team-title {
+  padding-top: 0;
   text-align: center;
   padding-bottom: 50px;
   font-weight: 700;
