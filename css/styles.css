@@ -140,10 +140,10 @@ body {
 .hero-btn {
   padding: 10px 32px;
   display: inline-block;
-  margin-bottom: 200px;
   align-items: center;
   text-align: center;
   margin: 0 auto;
+  margin-bottom: 200px;
 
   border: 0;
   border-radius: 4px;
