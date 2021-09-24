@@ -308,21 +308,21 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin-left: -8px;
 }
-.button-item{
+.button-list .button-item + .button-item{
   margin-left: 8px;
+}
+
 }
 
 .gallery-list{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin-left: -30px;
 }
 .gallery-card{
   margin-left: 30px;
-  width: 370px;
+  flex-basis: calc((100% - 90px) / 3);
 }
 .gallery-title {
   font-style: 400;
