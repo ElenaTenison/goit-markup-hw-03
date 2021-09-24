@@ -10,11 +10,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
     <header class="header">
+        <div class="container header-container">
         <nav class="header-navigation">
             <a class="logo link" lang="en" href="">Web<span class="header-logo">Studio</span></a>
             <ul class="header-list list">
@@ -23,10 +29,13 @@
                 <li class="header-item"><a class="header-link link" href="">Контакты</a></li>
             </ul>
         </nav>
-        <ul>
-            <li class="list"><a lang="en" class="header-link header-item link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="list"><a class="header-link header-item link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
+            <div>
+            <ul class="header-cotact">
+                <li class="header-item list"><a lang="en" class="header-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="header-item list"><a class="header-link link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            </ul>
+        </div>
+        </div>
     </header>
     <main>
         <!-- Герой -->
