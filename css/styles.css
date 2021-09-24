@@ -308,6 +308,28 @@ body {
 
 /* GALLERY */
 
+
+.button-list{
+  padding-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: -8px;
+}
+.button-item{
+  margin-left: 8px;
+}
+
+.gallery-list{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: -30px;
+}
+.gallery-card{
+  margin-left: 30px;
+  width: 370px;
+}
 .gallery-title {
   font-style: 400;
   font-weight: 700;
