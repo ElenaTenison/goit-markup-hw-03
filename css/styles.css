@@ -245,8 +245,8 @@ body {
 }
 
 .team-link {
-  padding-top: 10px;
-  padding-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 10px;
 
   font-weight: 400;
   font-size: 16px;
@@ -268,11 +268,18 @@ body {
 
 /* FOOTER */
 
-.footer-container {
-  display: flex;
-}
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #2f303a;
+}
+
+.footer-list{
+  padding-top: 20px;
+}
+
+.footer-item{
+  padding-top: ;: 9px;
 }
 
 .footer-logo {
