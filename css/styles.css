@@ -167,7 +167,9 @@ body {
 /* ANDVANTAGES */
 
 .advantages-list {
+  margin: 0 auto;
   display: flex;
+  align-items: center;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -180,6 +182,7 @@ body {
 }
 
 .advantages-link {
+  padding-top: 10px;
   max-width: 270px;
   font-weight: 700;
   line-height: 1.71;
