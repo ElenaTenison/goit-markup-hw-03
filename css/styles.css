@@ -256,7 +256,14 @@ body {
 
 .team-list {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  margin-left: -30px;
+}
+
+.team-card {
+  margin-left: 30px;
+  width: 270px;
 }
 
 /* FOOTER */
