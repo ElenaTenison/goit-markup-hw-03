@@ -309,10 +309,9 @@ body {
   flex-wrap: wrap;
   align-items: center;
 }
+
 .button-list .button-item + .button-item{
   margin-left: 8px;
-}
-
 }
 
 .gallery-list{
@@ -323,6 +322,7 @@ body {
 .gallery-card{
   margin-left: 30px;
   flex-basis: calc((100% - 90px) / 3);
+
 }
 .gallery-title {
   font-style: 400;
