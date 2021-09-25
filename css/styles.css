@@ -237,6 +237,8 @@ body {
 }
 
 .team-item {
+  margin-bottom: 10px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -245,9 +247,6 @@ body {
 }
 
 .team-link {
-  padding-top: 30px;
-  padding-bottom: 10px;
-
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19px;
@@ -258,6 +257,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  margin-left: -30px;
 }
 
 .team-card {
