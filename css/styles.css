@@ -174,15 +174,19 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  margin-left: -30px;
+}
+.advantages-card{
   margin-left: 30px;
   flex-basis: calc(100% / 4 - 30px);
-}
 
+}
 .advantages-item {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--secondary-title-color);
+  
 }
 
 .advantages-link {
@@ -211,6 +215,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  margin-left: -30px;
 }
 .work-card {
   margin-left: 30px;
@@ -219,16 +224,23 @@ body {
 
 /* TEAM */
 
-.team-content{
-  padding: 30px 58px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
-  0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-  margin-bottom: 30px;
+.team{
+  background: #F5F4FA;
+}
+
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: -30px;
+} 
+
+.team-card {
+  margin-left: 30px;
+  flex-basis: calc(100% / 4 - 30px);
 }
 
 .team-title {
-  padding-top: 0;
   text-align: center;
   padding-bottom: 50px;
   font-weight: 700;
@@ -247,6 +259,13 @@ body {
   color: var(--secondary-title-color);
 }
 
+.team-content{
+  padding: 30px 58px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+  0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .team-link {
   font-weight: 400;
   font-size: 16px;
@@ -254,20 +273,9 @@ body {
   text-align: center;
 }
 
-.team-list {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  margin-left: -30px;
-}
 
-.team-card {
-  margin-left: 30px;
-  flex-basis: calc(100% / 4 - 30px);
-}
-.team{
-  background: #F5F4FA;
-}
+
+
 
 /* FOOTER */
 
@@ -313,16 +321,14 @@ body {
 
 
 .button-list{
-  justify-content: center;
-  padding-bottom: 34px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  
+  justify-content: center;
 }
 
-.button-list .button-item + .button-item{
-  margin-left: 8px;
+.button-item:not(:last-child){
+  margin-right: 8px;
 }
 
 .gallery-list{
@@ -352,7 +358,6 @@ body {
 }
 .gallery-item {
   margin-top: 4px;
-
   font-size: 16px;
   line-height: 2;
 }
@@ -361,7 +366,7 @@ body {
   display: inline-block;
   align-items: center;
   text-align: center;
-  margin: 0 auto;
+  margin-bottom: 50px;
   border: 0;
   border-radius: 4px;
   height: 38px;
@@ -372,6 +377,7 @@ body {
   font-size: 16px;
   line-height: 1.62;
   color: var(--secondary-title-color);
+  background-color: #F5F4FA;
   cursor: pointer;
 }
 
