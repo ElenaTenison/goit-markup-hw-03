@@ -61,10 +61,6 @@ body {
   border-bottom: 1px solid #ececec;
 }
 
-.header-contact {
-  display: flex;
-  margin-left: auto;
-}
 
 .header-navigation {
   display: flex;
@@ -73,15 +69,10 @@ body {
 
 .header-list {
   display: flex;
-  margin-left: 93px;
 }
 
-.header-list .header-item + .header-item {
-  margin-left: 50px;
-}
-
-.header-cotact .header-item + .header-item {
-  margin-left: 50px;
+.header-item:not(:last-child){
+  margin-right: 50px;
 }
 
 .logo {
@@ -90,26 +81,28 @@ body {
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-color);
+  margin-right: 93px;
 }
 
 .header-logo {
   color: #000000;
 }
 
-.header-link {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-
-  font-weight: 500;
-  line-height: 1.14;
-  color: var(--secondary-title-color);
+.header-contact {
+  display: flex;
+  margin-left: auto;
 }
 
 .header-item {
-  font-weight: 500;
+  padding: 32px 0;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.header-link {
+  font-weight: 500;
+  line-height: 1.14;
+  color: var(--primary-text-color);
 }
 
 .header-link:hover,
