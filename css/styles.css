@@ -69,13 +69,12 @@ body {
 /* HEADER */
 
 .header{
-  border-bottom: 1px solid var (--border-color);
+  border-bottom: 1px solid var(--border-color);
 }
 
 .header-container {
   display: flex;
   align-items: center;
-  
 }
 
 .header-navigation {
@@ -303,6 +302,7 @@ body {
 .footer .logo{
   margin-bottom: 20px;
 }
+
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
