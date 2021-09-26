@@ -300,9 +300,10 @@ body {
 
 /* FOOTER */
 
-.footer-list{
+.footer .logo{
   margin-top: 20px;
 }
+
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
