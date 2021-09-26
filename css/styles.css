@@ -300,16 +300,17 @@ body {
 
 
 /* FOOTER */
-
+.footer .logo{
+  margin-bottom: 20px;
+}
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2f303a;
 }
 
-
-.footer-item{
-  padding-top: 9px;
+.footer-item:not(:last-child){
+  margin-bottom: 9px;
 }
 
 .footer-logo {
